@@ -1,4 +1,4 @@
-- name: 执行签到
+name: 执行签到
         run: npm run main
         env:
           USERINFO: ${{ secrets.USERINFO }}
